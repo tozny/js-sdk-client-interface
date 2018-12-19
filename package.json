@@ -1,8 +1,8 @@
 {
-  "name": "e3db",
-  "version": "1.2.5",
+  "name": "e3db-client-interface",
+  "version": "0.0.1",
   "description": "JavaScript client interface for E3DB JS SDKs",
-  "homepage": "",
+  "homepage": "https://github.com/tozny/js-sdk-client-interface",
   "author": {
     "name": "Tozny, LLC",
     "email": "info@tozny.com",
@@ -16,8 +16,17 @@
   "keywords": [
     "encryption",
     "encrypted-store",
-    "api-client"
+    "api-client",
+    "client-interface"
   ],
+  "dependencies": {
+    "babel-runtime": "^6.26",
+    "base64url": "^3.0.1",
+    "dotenv": "^6.1.0",
+    "es6-promise": "^4.2.4",
+    "isomorphic-fetch": "^2.2",
+    "libsodium-wrappers": "^0.7.3"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
@@ -87,20 +96,16 @@
       "prettier"
     ]
   },
-  "repository": "",
+  "repository": "https://github.com/tozny/js-sdk-client-interface",
   "jest": {
     "automock": false,
     "setupFiles": [
       "./setupJest.js"
     ],
-    "testEnvironment": "node"
-  },
-  "dependencies": {
-    "babel-runtime": "^6.26",
-    "base64url": "^3.0.1",
-    "dotenv": "^6.1.0",
-    "es6-promise": "^4.2.4",
-    "isomorphic-fetch": "^2.2",
-    "libsodium-wrappers": "^0.7.3"
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "mocks"
+    ]
   }
 }
