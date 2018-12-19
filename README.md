@@ -1,11 +1,10 @@
-[![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url]
-
-# JavaScript SDK Client Interface
+# E3DB JavaScript SDK Client Interface
 
 The Tozny End-to-End Encrypted Database (E3DB) is a storage platform with powerful sharing and consent management features.
+
 [Read more on our blog.](https://tozny.com/blog/announcing-project-e3db-the-end-to-end-encrypted-database/)
 
-This repository contains a client interface for use in the Node and Browser SDKs.  
+This repository contains a client interface for use in the Node and Browser SDKs.
 
 ## Terms of Service
 
