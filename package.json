@@ -24,8 +24,7 @@
     "base64url": "^3.0.1",
     "dotenv": "^6.1.0",
     "es6-promise": "^4.2.4",
-    "isomorphic-fetch": "^2.2",
-    "libsodium-wrappers": "^0.7.3"
+    "isomorphic-fetch": "^2.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
