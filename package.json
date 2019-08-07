@@ -71,6 +71,9 @@
       "jest": true,
       "node": true
     },
+    "globals": {
+      "fetch": "readonly"
+    },
     "rules": {
       "max-params": [
         "error",
