@@ -1,6 +1,8 @@
 node_modules
+prettierrc.json
 coverage
 dist
 .env
 .vscode
 .DS_Store
+
