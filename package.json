@@ -1,6 +1,6 @@
 {
   "name": "e3db-client-interface",
-  "version": "0.3.0-alpha.5",
+  "version": "0.3.0-alpha.7",
   "description": "JavaScript client interface for E3DB JS SDKs",
   "homepage": "https://github.com/tozny/js-sdk-client-interface",
   "author": {
@@ -24,7 +24,8 @@
     "base64url": "^3.0.1",
     "dotenv": "^6.1.0",
     "es6-promise": "^4.2.4",
-    "isomorphic-fetch": "^2.2"
+    "isomorphic-fetch": "^2.2",
+    "uuid": "^3.3.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.0",
