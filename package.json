@@ -1,6 +1,6 @@
 {
   "name": "e3db-client-interface",
-  "version": "0.3.0-alpha.7",
+  "version": "0.3.0-alpha.8",
   "description": "JavaScript client interface for E3DB JS SDKs",
   "homepage": "https://github.com/tozny/js-sdk-client-interface",
   "author": {
@@ -42,7 +42,8 @@
     "jest-cli": "^24.8.0",
     "jest-fetch-mock": "^2.0.1",
     "lint-staged": "^7.0.4",
-    "prettier": "^1.12.1"
+    "prettier": "^1.12.1",
+    "xo": "^0.24.0"
   },
   "scripts": {
     "prepare": "babel lib -d dist --ignore lib/__tests__",
@@ -85,13 +86,6 @@
       ],
       "no-await-in-loop": [
         "off"
-      ],
-      "prettier/prettier": [
-        "error",
-        {
-          "singleQuote": true,
-          "printWidth": 90
-        }
       ]
     },
     "plugins": [
