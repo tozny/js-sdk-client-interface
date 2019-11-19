@@ -1,6 +1,6 @@
 {
   "name": "e3db-client-interface",
-  "version": "2.0.0-alpha.2",
+  "version": "2.0.0-alpha.3",
   "description": "JavaScript client interface for E3DB JS SDKs",
   "homepage": "https://github.com/tozny/js-sdk-client-interface",
   "author": {
